@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreakFast</title>
+    <style>
+        *{
+            font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body{
+            text-align: center;
+            background-color: rgb(254, 255, 244);
+        }
+        h1{
+            margin-bottom: 50px;
+            font-size: 40px;
+            color: rgb(134, 11, 11);
+        }
+        h3{
+            margin-bottom: 30px;
+            font-size: 23px;
+        }
+        button{
+            margin: 3%;
+            text-decoration: none;
+            border-radius: 100px;
+            border: 5px;
+            background-color: rgb(254, 255, 244);
+            padding: 15px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 20px;
+            color: rgb(134, 11, 11);
+            transition: 0.25s;
+        }
+        button:hover{
+            font-size: 22px;
+            background-color: rgb(134, 11, 11);
+            color: rgb(254, 255, 244);
+            transition: 0.25s;
+            cursor: pointer;
+            
+        }
+        p{
+            color: rgb(64, 48, 0);
+            font-size: 21px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .youtube{
+            position: relative;
+            width: 50%;
+            padding-top: 28.125%;
+            margin: auto;
+            transition: 0.25s;
+        }
+        .youtube:hover{
+            cursor: pointer;
+            scale: 1.03;
+            transition: 0.25s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Time for BreakFast!</h1>
+    <p>Breakfast is the first and most important meal of the day, providing the energy and nutrients needed to kickstart your morning. A well-balanced breakfast can boost concentration, improve mood, and set the tone for productive hours ahead. Whether it’s a quick grab-and-go option or a hearty, sit-down meal, scheduling time for breakfast ensures you start the day on the right foot.</p>
+    <h3>Learn how to prepare a beneficial breakfast from this YouTube video below.</h3>    
+    <div class='youtube'>
+        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/rvaDXPcOAQw?si=1XwIIlD4Dc1q8Ve5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+    
+    <br>
+    <button onclick="window.location.href='schedule.html'">Back to Scheduler</button>
+</body>
+</html>

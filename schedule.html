@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body{
+            text-align: center;
+            background-color: rgb(254, 255, 244);
+        }
+        h1{
+            margin-bottom: 50px;
+            font-size: 40px;
+            color: rgb(134, 11, 11);
+        }
+        table{
+            text-align: center;
+            margin: auto;
+            width: 60%;
+            height: 60%;
+        }
+        th{
+            outline: 2.5px solid black;
+            padding: 1.5%; 
+            font-size: 25px; 
+            background-color: rgb(245, 234, 221);
+        }
+        tbody,td{
+            outline: 2.5px solid black;
+            padding: 3%; 
+            font-size: 20px; 
+            background-color: rgb(249, 249, 241);
+            
+        }
+        a{
+            text-decoration: none;
+            font-weight: 700;
+            color: rgb(134, 11, 11);
+        }
+        a:hover{
+            color: rgb(194, 0, 0);
+        }
+        .time{
+            color: rgb(64, 48, 0);
+            font-weight: 800;
+        }
+
+    </style>
+    <title>
+        Daily Scheduler
+    </title>
+</head>
+<body>
+    <h1>Daily Scheduler</h1>
+    <table>
+        <thead >
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time">8:00 AM</td>
+                <td><a href="breakfast.html">Breakfast</a></td>
+            </tr>
+            <tr>
+                <td class="time">10:00 AM</td>
+                <td><a href="meeting.html">Meeting</a></td>
+            </tr>
+            <tr>
+                <td class="time">3:00 PM</td>
+                <td><a href="lunch.html">Lunch</a></td>
+            </tr>
+            <tr>
+                <td class="time">7:00 PM</td>
+                <td><a href="football.html">Football Match</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
